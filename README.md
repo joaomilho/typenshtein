@@ -24,7 +24,7 @@ prevent the proper delivery of a vital email or change the meaning of an
 intended message from "do you have a small unit of time to help me?", like in
 "do you have a sec?" to "were you born in a determined gender?", like in "do
 you have a sex?" (or any other interpretation of that sentence). This is just
-one example of possible misunderstanding, but they may be harmful enough to end
+one example of a possible misunderstanding, but they may be harmful enough to end
 marriages and even cause global wars.
 
 In practice though, this library just calculates the distance of two points in a

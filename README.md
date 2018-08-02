@@ -22,7 +22,25 @@ typenshteinForRegularKeyboard('aaa', 'www') // 1.50...4 - not so much
 typenshteinForRegularKeyboard('aaa', 'ppp') // 2.9634... - far away
 
 typenshteinForRegularKeyboard('...', '///') // 3 - not in keyboard...
+
+// your own custom keyboard
+const { typenshtein } = require('typenshtein')
+
+const typenshteinForMyKeyboard = typenshtein({
+  'ä': [0, 0],
+  'β': [0, 1],
+  ...
+})
 ```
+
+### Custom keyboards
+
+As shown in the example above, you can create your own keyboard. A keyboard is
+just a map – an object –, with the characters as keys, and a vector: an array
+with 2 items, where the first represents the row of the character in the
+keyboard and the second represents the column. For instance, in a regular qwerty
+keyboard, `q` would be `[0, 0]`, `w` would be `[0, 1]` and so on. `a`, being in
+the next row would be `[1, 0]`.
 
 ### The name
 

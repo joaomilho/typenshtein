@@ -16,8 +16,8 @@ the right moves and end up typing one or more wrong characters. The wrongly type
 characters statistically tend to be physically close to the originally intended
 character, and a proper detection of typos needs to take that into consideration.
 
-Typos are by normally not intentional, but this library can detect also
-intentional ones.
+Typos are normally not intentional, but this library can detect also intentional
+ones.
 
 Detecting typos is an important thing to do cause a typo can, for instance
 prevent the proper delivery of a vital email, or change the meaning of an

@@ -19,7 +19,7 @@ character, and a proper detection of typos needs to take that into consideration
 Typos are normally not intentional, but this library can detect also intentional
 ones.
 
-Detecting typos is an important thing to do because a typo can, for instance
+Detecting typos is an important thing to do because a typo can, for instance,
 prevent the proper delivery of a vital email, or change the meaning of an
 intended message from "do you have a small unit of time to help me?", like in
 "do you have a sec?" to "were you born in a determined gender", like in "do

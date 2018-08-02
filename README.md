@@ -12,7 +12,7 @@ task – typically fingers – do not perform their function correctly, either b
 mismatch between their central nervous system sygnals and the member motricity
 execution or simply because they are using a keyboard that they are not used to
 – typically a swedish one –, so that their "muscle memory" fails to "remember"
-the right moves and end up typing one or more wrong characters. The wrong typed
+the right moves and end up typing one or more wrong characters. The wrongly typed
 characters statistically tend to be physically close to the originally intended
 character, and a proper detection of typos needs to take that into consideration.
 

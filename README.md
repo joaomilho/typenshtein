@@ -2,9 +2,9 @@
 
 A weighted levenshtein that takes typiness into consideration.
 
-Typiness is the quality of being a typo. In lay terms, this means that a
-character that is closer to another in a hypothetical keyboard has more typiness
-that one that is distant.
+Typiness is the relative quality of being a typo. In lay terms, this means that
+a character that is closer to another in a hypothetical keyboard has more
+typiness relative to the other that one that is distant.
 
 In practice though, it just calculates the distance of two points in a cartesian
 plain.

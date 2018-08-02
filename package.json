@@ -1,0 +1,12 @@
+{
+  "name": "typenshtein",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^1.0.0-beta.6"
+  }
+}

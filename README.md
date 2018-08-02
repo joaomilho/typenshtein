@@ -6,8 +6,28 @@ Typiness is the relative quality of being a typo. In lay terms, this means that
 a character that is closer to another in a hypothetical keyboard has more
 typiness relative to the other that one that is distant.
 
-In practice though, it just calculates the distance of two points in a cartesian
-plain.
+A typo is when a creature with the capacity of writting potencially correct
+words – typically Humans – fails to do so because its members employed in that
+task – typically fingers – do not perform their function correctly, either by a
+mismatch between their central nervous system sygnals and the member motricity
+execution or simply because they are using a keyboard that they are not used to
+– typically a swedish one –, so that their "muscle memory" fails to "remember"
+the right moves and end up typing one or more wrong characters. The wrong typed
+characters statistically tend to be physically close to the originally intended
+character, and a proper detection of typos needs to take that into consideration.
+
+Typos are by normally not intentional, but this library can detect also
+intentional ones.
+
+Detecting typos is an important thing to do cause a typo can, for instance
+prevent the proper delivery of a vital email, or change the meaning of an
+intended message from "do you have a small unit of time to help me?", like in
+"do you have a sec?" to "where you born in a determined gender", like in "do
+you have a sex?". This is just one example of possible misunderstanding, but
+they may be harmful enough to end marriages and even cause global wars.
+
+In practice though, this library just calculates the distance of two points in a
+cartesian plain.
 
 Usage:
 

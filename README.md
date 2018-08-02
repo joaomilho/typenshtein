@@ -30,7 +30,7 @@ marriages and even cause global wars.
 In practice though, this library just calculates the distance of two points in a
 cartesian plain.
 
-Usage:
+### Usage:
 
 ```js
 const { typenshtein, regularKeyboard } = require('typenshtein')

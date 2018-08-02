@@ -1,4 +1,4 @@
-const weightedLevenshtein = require('weighted-levenshtein')
+const weightedLevenshtein = require('../weighted-levenshtein')
 const typiness = require('./typiness')
 
 module.exports = keyboard => {

@@ -52,6 +52,14 @@ const typenshteinForMyKeyboard = typenshtein({
   'β': [0, 1],
   ...
 })
+
+// actual real world use case
+typenshteinForRegularKeyboard('gmail.com', 'gnail.com') // 0
+typenshteinForRegularKeyboard('gmail.com', 'gbail.com') // 0.75
+
+// the regular levenshtein doesn't distinguish both cases
+levenshtein('gmail.com', 'gnail.com') // 1
+levenshtein('gmail.com', 'gbail.com') // 1
 ```
 
 ### Custom keyboards

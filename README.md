@@ -6,7 +6,7 @@ Typiness is the relative quality of being a typo. In lay terms, this means that
 a character that is closer to another in a hypothetical keyboard has more
 typiness relative to the other that one that is distant.
 
-A typo is when a creature with the capacity of writting potencially correct
+A typo is when a creature with the capacity of writing potencially correct
 words – typically Humans – fails to do so because its members employed in that
 task – typically fingers – do not perform their function correctly, either by a
 mismatch between their central nervous system sygnals and the member motricity
